@@ -20,7 +20,7 @@
 #include "wav.h"
 #include "modes.h"
 
-//AVT90, because fuck sync pulses
+//AVT90, because sync pulses are for noobs
 void encodeAVT90(SSTV::rgb* rgbBuffer) {
     SSTV::addVisCode(AVT90.vis.visC);
 
